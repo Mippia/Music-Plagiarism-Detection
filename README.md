@@ -2,14 +2,14 @@
 
 #  MUSIC PLAGIARISM DETECTION: PROBLEM FORMULATION AND A SEGMENT-BASED SOLUTION
 
-<h3>Submitted @ ICCASP 2026</h3>
+<h3>Submitted @ ICASSP 2026</h3>
 
 <p>
   <b>Seonghyeon Go*</b> · <b>Yumin Kim*</b> 
 </p>
-
 <p>MIPPIA Inc.</p>
 
+[![Paper](https://img.shields.io/badge/arXiv-2601.21260-b31b1b)](https://arxiv.org/abs/2601.21260)
 [![Project Page](https://img.shields.io/badge/Project-Website-blue)](https://mippia.github.io/icassp-mpd/)
 [![Demo Page](https://img.shields.io/badge/Demo-Page-red)](https://huggingface.co/spaces/mippia/MPD-demo)
 
@@ -19,8 +19,8 @@
 ```bash
 python inference.py {wav_path}
 ```
-This will analyze the audio file and provide simple transcription results with musical segment information, same as demo page.
 
+This will analyze the audio file and provide simple transcription results with musical segment information, same as demo page.
 Please use this demo for understanding the concept of segment-level matching!
 
 ## SMP Dataset Overview
@@ -42,18 +42,17 @@ The SMP (Segment-based Music Plagiarism) dataset contains music plagiarism detec
 | `acoustic_idx` | Unique identifier for segment pairs |
 
 ## Data Format
+
 - **Time annotations**: JSON-formatted lists containing start times of similar segments
 - **Temporal alignment**: `ori_times` and `comp_times` correspond to matching similar segments between songs
 - **Segment duration**: Each segment represents a temporally coherent musical phrase or motif
 
 ## Statistics
+
 - Total pairs: Multiple song pairs with plagiarism relationships
 - Temporal annotations: Precise start times for similar musical segments
 - Multi-language: Includes both English and Korean songs
 
 ## License
-Our code and demo website are licensed under a 
-  <a href="https://www.gnu.org/licenses/gpl-3.0.html" 
-     class="text-blue-500 hover:underline">
-    GPL License
-  </a>.
+
+Our code and demo website are licensed under a [GPL License](https://www.gnu.org/licenses/gpl-3.0.html).
