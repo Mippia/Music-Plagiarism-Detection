@@ -2,7 +2,6 @@
 
 #  MUSIC PLAGIARISM DETECTION: PROBLEM FORMULATION AND A SEGMENT-BASED SOLUTION
 
-<h3>Submitted @ ICASSP 2026</h3>
 
 <p>
   <b>Seonghyeon Go*</b> · <b>Yumin Kim*</b> 
