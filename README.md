@@ -1,7 +1,12 @@
 <div align="center">
 
-#  MUSIC PLAGIARISM DETECTION: PROBLEM FORMULATION AND A SEGMENT-BASED SOLUTION
+  <img width="300" alt="MIPPIA Logo" src="https://github.com/user-attachments/assets/bc77c131-f5ee-449d-a438-60838917906a" />
 
+  <br>
+  
+<h3>Music Plagiarism Detection: Problem Formulation And A Segment-based Solution</h3>
+
+  <br>
 
 <p>
   <b>Seonghyeon Go*</b> · <b>Yumin Kim*</b> 
